@@ -14,7 +14,7 @@ import scipy.sparse as sp
 
 from sklearn.base import BaseEstimator, ClusterMixin, TransformerMixin
 from sklearn.cluster import k_means_
-from sklearn.cluster import _k_means
+from sklearn.cluster import k_means
 from sklearn.externals.joblib import Parallel
 from sklearn.externals.joblib import delayed
 from sklearn.metrics.pairwise import euclidean_distances
